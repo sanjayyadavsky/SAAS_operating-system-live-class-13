@@ -91,7 +91,9 @@
     padding: 10px 14px 0px 0px;
     font-size: 20px;
 }
-
+.footer{
+    margin-bottom: 50px;
+}
 .feature-item >h2{
     padding: 20px 0px;
 }
