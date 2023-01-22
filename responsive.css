@@ -1,0 +1,65 @@
+@media screen and (max-width:1213px)  {
+    .freeTrial {
+        padding: 12px 15px;
+    }
+    .nav-items {
+        padding: 17px 20px;
+        margin-left: 7px;
+        width: 78%;
+    }
+ 
+}
+@media screen and (max-width:1050px) {
+    .nav-items{
+        display: none;
+    }
+    .nav-icon{
+     display: block;
+     float: right;
+     color: #fff;
+     font-size: 30px;
+    }
+}
+@media screen and (max-width:900px) {
+    .fature{
+        flex-direction: column;
+    }
+    .foorter-item{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .fature-customer{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .hero-body{
+        flex-direction: column-reverse;
+    }
+    .right{
+        width: auto;
+        height: auto;
+    }
+    .left {
+        margin-top: 0px;
+        width: 100%;
+      
+    }
+    .left>h2{
+        font-size: 45px;
+    }
+    .body{
+        flex-direction: column;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .fature-customer{
+        width: 70%;
+        font-size: 35px;
+    }
+}
